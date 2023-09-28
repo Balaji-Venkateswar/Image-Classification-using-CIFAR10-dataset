@@ -1,0 +1,21 @@
+
+
+batch_size: 4
+shuffle: True
+num_workers: 0
+download: True
+epochs: 20
+mean: 0.5
+std: 0.5
+
+momentum: 0.9
+batch_test: 5000
+
+
+model_config:
+    criterion: CrossEntropyLoss
+    optimizer: Adam
+    optimizer_params:
+      lr: 0.001
+    #  momentum: 0.89
+  
