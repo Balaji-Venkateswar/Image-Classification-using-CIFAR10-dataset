@@ -1,3 +1,2 @@
 # Image-Classification-using-CIFAR10-dataset
-The project involves image classification using CIFAR-10 dataset containing 60000 samples of 32x32 size images with 10 classes. In this project, I have used dataloaders, yaml config setup and created utility files in seperate folder and imported them in the main code for use. Convolutional and Linear layers were used in the model and using criterion and optimizers the model performance was enhanced. Visualisation of data and results were done using matplotlib library. 
- 
+The project focuses on image classification using the CIFAR-10 dataset, which contains 60,000 samples of 32x32 pixel images across 10 classes. The implementation leverages dataloaders and a YAML configuration setup, with utility files organized in a separate folder and imported into the main code. The model architecture includes convolutional and linear layers, and Data and results visualization were conducted using the Matplotlib library.
